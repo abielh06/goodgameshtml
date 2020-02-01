@@ -1,16 +1,16 @@
 {
   "development": {
-    "port": "3307",
+    "port": "3306",
     "username": "root",
-    "password": "lotr",
+    "password": "password",
     "database": "gamesdb",
     "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "lotr",
-    "database": "goodGames_db",
+    "password": "password",
+    "database": "gamesdb",
     "host": "localhost",
     "dialect": "mysql",
     "logging": false

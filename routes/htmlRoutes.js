@@ -11,6 +11,21 @@ module.exports = function(app) {
     });
   });
 
+  // Load game page and pass in an game by id
+  app.get("/games/:id", function(req, res) {
+    db.Game.findOne({ where: { id: req.params.id } }).then(function(dbGames) {
+      res.render("games", {
+        example: dbGames
+      });
+    });
+  });
+
+  app.get("/users/:id", function(req, res) {
+    db.User.findOne({ where: {id: req.params.id}}).then(function(user){
+      res.render("users");
+    })
+  })
+
   // index route loads view.html
   app.get("/news", function(req, res) {
     res.render("news");

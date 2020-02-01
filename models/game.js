@@ -28,7 +28,7 @@ module.exports = function(sequelize, DataTypes) {
     },
     img_src: {
       type: DataTypes.TEXT,
-      allowNull: false
+      allowNull: true
     }
   });
   Game.associate = function(models) {

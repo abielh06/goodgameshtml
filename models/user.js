@@ -16,9 +16,9 @@ module.exports = function (sequelize, Datatypes) {
         }
     });
     User.associate = function (models) {
-        /* User.belongsTo(models.UserList, {
+        User.belongsTo(models.UserList, {
              foreignKey: "user_name"
-         });*/
+         });
     };
     return User;
 };

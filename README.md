@@ -27,24 +27,27 @@ The Game Reviews tab on the navbar will direct the user to games they have alrea
 
  Finally, the Reviews for Gamers by Gamers! dropdown will include an additional link to a stand-alone Login html file and a link to an html file that let's you add a new game to the database.
 
-=========================================================================================================================================
+ *View app here >>>> https://good-games-app.herokuapp.com/
+
+
 
 # Technologies Used:
--Visual Studio Code
--Node
--Bootstrap
--Twitter Widgets
+    -Visual Studio Code
+    -Node
+    -Bootstrap
+    -Twitter Widgets
+   
 
 # Node Packages:
--Sequelize
--Express
--Express-Handlebars
--MySQL
+    -Sequelize
+    -Express
+    -Express-Handlebars
+    -MySQL
 
 # Developers involved:
--Abiel Hailemariam
--Nick Macon
--Vanessa Wiedeman
+    -Abiel Hailemariam
+    -Nick Macon
+    -Vanessa Wiedeman
 
 
 

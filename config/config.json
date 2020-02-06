@@ -3,8 +3,8 @@
     "port": "3306",
     "username": "",
     "password": "",
-    "database": "",
-    "host": "",
+    "database": "gamesdb",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {

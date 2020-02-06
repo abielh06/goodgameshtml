@@ -20,19 +20,19 @@ module.exports = function(app) {
     });
   });
 
-  app.get("/users/:id", function(req, res) {
-    db.User.findOne({ where: {id: req.params.id}}).then(function(user){
-      res.render("users");
-    })
-  })
+  // app.get("/users/:id", function(req, res) {
+  //   db.User.findOne({ where: {id: req.params.id}}).then(function(user){
+  //     res.render("users");
+  //   })
+  // })
 
   // index route loads view.html
   app.get("/news", function(req, res) {
     res.render("news");
   });
-  app.get("/signup", function(req, res) {
-    res.render("signup");
-  });
+  // app.get("/signup", function(req, res) {
+  //   res.render("signup");
+  // });
 
   app.get("/gamesplayed", function(req, res) {
     res.render("gamesplayed");
@@ -60,7 +60,7 @@ module.exports = function(app) {
   });
 
   // Render 404 page for any unmatched routes
-  app.get("*", function(req, res) {
-    res.render("404");
-  });
+  // app.get("*", function(req, res) {
+  //   res.render("404");
+  // });
 };
